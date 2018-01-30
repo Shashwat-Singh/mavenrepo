@@ -35,7 +35,7 @@
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://rig.eastus.cloudapp.azure.com:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
+        </snapshotRepository> 
     </distributionManagement>
   <dependencies>
   	<dependency>
