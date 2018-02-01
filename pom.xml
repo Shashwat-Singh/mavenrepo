@@ -42,12 +42,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://rig.eastus.cloudapp.azure.com:8081/repository/maven-releases/</url>
+            <url>http://rig.eastus.cloudapp.azure.com:8091/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://rig.eastus.cloudapp.azure.com:8081/repository/maven-snapshots/</url>
+            <url>http://rig.eastus.cloudapp.azure.com:8091/nexus/content/repositories/snapshots/</url>
         </snapshotRepository> 
     </distributionManagement>
   <dependencies>
